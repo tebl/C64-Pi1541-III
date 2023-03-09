@@ -13,4 +13,9 @@
 # Autorouter files (exported from Pcbnew)
 .dsn
 
+C64 Pi1541-III Module/export/
+C64 Pi1541-III Module Panel/export/
+faceplates/C64 Pi1541-III Module FB1/export/
+faceplates/C64 Pi1541-III Module FP1/export/
+
 resources/

@@ -9,8 +9,8 @@ Date ""
 Rev "A"
 Comp ""
 Comment1 ""
-Comment2 ""
-Comment3 "build another one."
+Comment2 "anything else - consider previous versions instead."
+Comment3 "build another one. It is designed for use with 1.3\" displays and rotary encoder, for "
 Comment4 "It's a PI1541, and it's the third one I've made for almost no reason beyond wanting to"
 $EndDescr
 $Comp
@@ -185,12 +185,12 @@ Power section
 $Comp
 L pi1541:Module_Panel J8
 U 1 1 62DF1416
-P 10975 7725
-F 0 "J8" H 11075 8925 50  0000 C CNN
-F 1 "Module_Panel" H 11075 8850 50  0000 C CNN
-F 2 "pi1541:Module_Panel" H 10975 7725 50  0001 C CNN
-F 3 "~" H 10975 7725 50  0001 C CNN
-	1    10975 7725
+P 10550 7800
+F 0 "J8" H 10650 9000 50  0000 C CNN
+F 1 "Module_Panel" H 10650 8925 50  0000 C CNN
+F 2 "pi1541:Module_Panel" H 10550 7800 50  0001 C CNN
+F 3 "~" H 10550 7800 50  0001 C CNN
+	1    10550 7800
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
@@ -202,56 +202,52 @@ Wire Notes Line
 $Comp
 L power:+3.3V #PWR0118
 U 1 1 62F4338D
-P 11325 6650
-F 0 "#PWR0118" H 11325 6500 50  0001 C CNN
-F 1 "+3.3V" H 11340 6823 50  0000 C CNN
-F 2 "" H 11325 6650 50  0001 C CNN
-F 3 "" H 11325 6650 50  0001 C CNN
-	1    11325 6650
+P 10900 6675
+F 0 "#PWR0118" H 10900 6525 50  0001 C CNN
+F 1 "+3.3V" H 10915 6848 50  0000 C CNN
+F 2 "" H 10900 6675 50  0001 C CNN
+F 3 "" H 10900 6675 50  0001 C CNN
+	1    10900 6675
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	11400 7225 11175 7225
+	10975 7300 10750 7300
 Wire Wire Line
-	11175 7325 11400 7325
+	10750 7600 10975 7600
 Wire Wire Line
-	11175 7425 11400 7425
-Wire Wire Line
-	11175 7525 11400 7525
-Wire Wire Line
-	11175 7625 11400 7625
-Text GLabel 11400 7125 2    60   Input ~ 0
+	10750 7700 10975 7700
+Text GLabel 10975 7200 2    60   Input ~ 0
 I2C_SDA
-Text GLabel 11400 7025 2    60   Input ~ 0
+Text GLabel 10975 7100 2    60   Input ~ 0
 I2C_SCL
 Wire Wire Line
-	11400 7025 11175 7025
+	10975 7100 10750 7100
 Wire Wire Line
-	11175 7125 11400 7125
+	10750 7200 10975 7200
 Wire Wire Line
-	11175 7725 11250 7725
+	10750 7800 10825 7800
 Wire Wire Line
-	11175 7825 11325 7825
+	10750 7900 10900 7900
 $Comp
 L power:GND #PWR07
 U 1 1 630E6531
-P 11250 7925
-F 0 "#PWR07" H 11250 7675 50  0001 C CNN
-F 1 "GND" H 11255 7752 50  0000 C CNN
-F 2 "" H 11250 7925 50  0001 C CNN
-F 3 "" H 11250 7925 50  0001 C CNN
-	1    11250 7925
+P 10825 8000
+F 0 "#PWR07" H 10825 7750 50  0001 C CNN
+F 1 "GND" H 10830 7827 50  0000 C CNN
+F 2 "" H 10825 8000 50  0001 C CNN
+F 3 "" H 10825 8000 50  0001 C CNN
+	1    10825 8000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	11250 7925 11250 7725
-Connection ~ 11250 7725
+	10825 8000 10825 7800
+Connection ~ 10825 7800
 $Comp
 L Device:R R6
 U 1 1 5E3CE04C
 P 5750 6650
 F 0 "R6" V 5830 6650 50  0000 C CNN
-F 1 "330" V 5750 6650 50  0000 C CNN
+F 1 "330*" V 5925 6650 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 6650 50  0001 C CNN
 F 3 "" H 5750 6650 50  0001 C CNN
 	1    5750 6650
@@ -264,7 +260,7 @@ L Device:R R7
 U 1 1 5E3E1B83
 P 5750 7625
 F 0 "R7" V 5830 7625 50  0000 C CNN
-F 1 "330" V 5750 7625 50  0000 C CNN
+F 1 "330*" V 5925 7625 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 7625 50  0001 C CNN
 F 3 "" H 5750 7625 50  0001 C CNN
 	1    5750 7625
@@ -821,29 +817,23 @@ Wire Wire Line
 Text GLabel 5500 7700 3    50   Output ~ 0
 LED_ACT
 Wire Wire Line
-	11325 6650 11325 7825
+	10750 6800 10825 6800
 Wire Wire Line
-	11175 6725 11250 6725
-Wire Wire Line
-	11250 6725 11250 7725
-Text GLabel 11400 7225 2    60   Input ~ 0
+	10825 6800 10825 7800
+Text GLabel 10975 7300 2    60   Input ~ 0
 SW1_ENTER
-Text GLabel 11400 7325 2    60   Input ~ 0
-SW2_UP
-Text GLabel 11400 7425 2    60   Input ~ 0
-SW3_DOWN
-Text GLabel 11400 7525 2    60   Input ~ 0
+Text GLabel 10975 7600 2    60   Input ~ 0
 SW4_BACK
-Text GLabel 11400 7625 2    60   Input ~ 0
+Text GLabel 10975 7700 2    60   Input ~ 0
 SW5_INSERT
-Text GLabel 11400 6825 2    50   Input ~ 0
+Text GLabel 10975 6900 2    50   Input ~ 0
 LED_PWR
-Text GLabel 11400 6925 2    50   Input ~ 0
+Text GLabel 10975 7000 2    50   Input ~ 0
 LED_ACT
 Wire Wire Line
-	11400 6925 11175 6925
+	10975 7000 10750 7000
 Wire Wire Line
-	11175 6825 11400 6825
+	10750 6900 10975 6900
 Wire Wire Line
 	3800 4300 3875 4300
 $Comp
@@ -865,4 +855,70 @@ Wire Notes Line
 	7100 5450 15300 5450
 Wire Notes Line
 	7100 8950 15300 8950
+Wire Wire Line
+	10750 7400 11625 7400
+$Comp
+L Device:R R3
+U 1 1 640A84BF
+P 11625 6975
+F 0 "R3" H 11695 7021 50  0000 L CNN
+F 1 "10k*" H 11695 6930 50  0000 L CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11555 6975 50  0001 C CNN
+F 3 "~" H 11625 6975 50  0001 C CNN
+	1    11625 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 640A9414
+P 11950 6975
+F 0 "R4" H 12020 7021 50  0000 L CNN
+F 1 "10k*" H 12020 6930 50  0000 L CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11880 6975 50  0001 C CNN
+F 3 "~" H 11950 6975 50  0001 C CNN
+	1    11950 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11625 7125 11625 7400
+Wire Wire Line
+	11950 7125 11950 7500
+Wire Wire Line
+	11950 6750 11950 6825
+Wire Wire Line
+	10900 6675 10900 7900
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 640EF8C9
+P 11625 6675
+F 0 "#PWR0110" H 11625 6525 50  0001 C CNN
+F 1 "+3.3V" H 11640 6848 50  0000 C CNN
+F 2 "" H 11625 6675 50  0001 C CNN
+F 3 "" H 11625 6675 50  0001 C CNN
+	1    11625 6675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 7500 12050 7500
+Text GLabel 12050 7500 2    60   Input ~ 0
+SW3_DOWN
+Text GLabel 12050 7400 2    60   Input ~ 0
+SW2_UP
+Text Notes 12325 6900 0    50   ~ 0
+* R3/R4 is used with rotary encoder, not\nneeded when used with standard switches.
+Wire Wire Line
+	11625 6675 11625 6750
+Wire Wire Line
+	10750 7500 11950 7500
+Connection ~ 11950 7500
+Wire Wire Line
+	11625 7400 12050 7400
+Connection ~ 11625 7400
+Wire Wire Line
+	11625 6750 11950 6750
+Connection ~ 11625 6750
+Wire Wire Line
+	11625 6750 11625 6825
+Text Notes 4675 8375 0    50   ~ 0
+* Resistor values need to be adjusted according to type\nof LED installed on front panel. Sensible values for\nbright LEDs is significantly higher than what is specified.
 $EndSCHEMATC
