@@ -8,9 +8,9 @@ Title "PI1541-III Module"
 Date ""
 Rev "A"
 Comp ""
-Comment1 "version."
-Comment2 "consider previous"
-Comment3 "build another one. It is designed for use with 1.3\" displays and rotary encoder, for anything else - "
+Comment1 ""
+Comment2 "anything else - consider previous versions instead."
+Comment3 "build another one. It is designed for use with 1.3\" displays and rotary encoder, for "
 Comment4 "It's a PI1541, and it's the third one I've made for almost no reason beyond wanting to"
 $EndDescr
 $Comp
