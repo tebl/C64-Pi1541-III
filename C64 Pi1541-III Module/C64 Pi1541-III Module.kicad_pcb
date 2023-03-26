@@ -6989,7 +6989,7 @@
     )
   )
 
-  (module RPI:Raspberry_Pi_3B_Socketed_THT_FaceDown_MountingHoles locked (layer F.Cu) (tedit 6206D57E) (tstamp 640982F6)
+  (module RPI:Raspberry_Pi_3B_Socketed_THT_FaceDown_MountingHoles locked (layer F.Cu) (tedit 6206D57E) (tstamp 641D60C2)
     (at 161.29 89.805 270)
     (descr "Raspberry Pi 3B+ using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_3bplus.pdf")
     (tags "raspberry pi 3b+ through hole")
@@ -6997,7 +6997,7 @@
     (fp_text reference A1 (at -5.985 72.39) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Raspberry PI" (at -5.985 66.04 180) (layer F.SilkS)
+    (fp_text value "Raspberry PI 3A/3B" (at -5.985 62.865 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 48.73 78.63) (end 48.730306 76.587988) (layer F.Fab) (width 0.1))
@@ -8106,7 +8106,7 @@
   (segment (start 123.845 72.41) (end 132.715 72.41) (width 0.25) (layer F.Cu) (net 24) (status 20))
   (segment (start 132.715 72.41) (end 153.035 72.41) (width 0.25) (layer F.Cu) (net 24) (status 30))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 641D5F3D) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 641D5F79) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

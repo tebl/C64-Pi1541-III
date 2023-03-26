@@ -95,7 +95,7 @@ L raspberry_pi:Raspberry_Pi_2_3 A1
 U 1 1 640CCE33
 P 2725 3400
 F 0 "A1" H 2100 4750 50  0000 C CNN
-F 1 "Raspberry PI" H 2100 4675 50  0000 C CNN
+F 1 "Raspberry PI 3A/3B" H 2100 4675 50  0000 C CNN
 F 2 "RPI:Raspberry_Pi_3B_Socketed_THT_FaceDown_MountingHoles" H 2725 3400 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2725 3400 50  0001 C CNN
 	1    2725 3400
@@ -247,7 +247,7 @@ L Device:R R6
 U 1 1 5E3CE04C
 P 5750 6650
 F 0 "R6" V 5830 6650 50  0000 C CNN
-F 1 "330*" V 5925 6650 50  0000 C CNN
+F 1 "470*" V 5925 6650 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 6650 50  0001 C CNN
 F 3 "" H 5750 6650 50  0001 C CNN
 	1    5750 6650
@@ -260,7 +260,7 @@ L Device:R R7
 U 1 1 5E3E1B83
 P 5750 7625
 F 0 "R7" V 5830 7625 50  0000 C CNN
-F 1 "330*" V 5925 7625 50  0000 C CNN
+F 1 "470*" V 5925 7625 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 7625 50  0001 C CNN
 F 3 "" H 5750 7625 50  0001 C CNN
 	1    5750 7625
