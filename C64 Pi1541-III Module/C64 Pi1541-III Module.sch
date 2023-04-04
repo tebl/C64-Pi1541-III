@@ -264,7 +264,7 @@ F 1 "470*" V 5925 7625 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 7625 50  0001 C CNN
 F 3 "" H 5750 7625 50  0001 C CNN
 	1    5750 7625
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	5500 7625 5600 7625

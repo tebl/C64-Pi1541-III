@@ -94,8 +94,8 @@ $Comp
 L raspberry_pi:Raspberry_Pi_2_3 A1
 U 1 1 640CCE33
 P 2725 3400
-F 0 "A1" H 2100 4750 50  0000 C CNN
-F 1 "Raspberry PI 3A/3B" H 2100 4675 50  0000 C CNN
+F 0 "A1" H 2075 4750 50  0000 C CNN
+F 1 "Raspberry PI 3A/3B" H 2075 4675 50  0000 C CNN
 F 2 "RPI:Raspberry_Pi_3B_Socketed_THT_FaceDown_MountingHoles" H 2725 3400 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2725 3400 50  0001 C CNN
 	1    2725 3400
