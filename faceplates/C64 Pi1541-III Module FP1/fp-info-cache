@@ -1,4 +1,4 @@
-19080286474516224
+19060536420895250
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,20 +2274,6 @@ speaker CUI
 0
 2
 2
-C64_IEC
-C64_IEC
-
-
-0
-8
-8
-C64_IEC
-DIN6_IEC
-
-
-0
-10
-7
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -51680,13 +51666,6 @@ heatsink
 0
 2
 1
-IIC_4CH_Level_Converter
-4CH_I2C_Level_Converter
-
-
-0
-12
-12
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -72589,6 +72568,76 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Pi1541
+BARREL_JACK
+DC Barrel Jack
+Power Jack
+0
+3
+3
+Pi1541
+Module_Panel
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+12
+12
+Pi1541
+Pi1541-Back
+
+
+0
+0
+0
+Pi1541
+Pi1541-DRV
+
+
+0
+0
+0
+Pi1541
+Pi1541-Decal
+
+
+0
+0
+0
+Pi1541
+Pi1541-Decal2
+
+
+0
+0
+0
+Pi1541
+Pi1541-III
+
+
+0
+0
+0
+Pi1541
+Pi1541-Insert
+
+
+0
+0
+0
+Pi1541
+Pi1541-PWR
+
+
+0
+0
+0
+Pi1541
+Pi1541-Power
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -74409,20 +74458,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RPI
-Raspberry_Pi_3A_Socketed_THT_FaceDown_MountingHoles
-Raspberry Pi 3B+ using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_3bplus.pdf
-raspberry pi 3b+ through hole
-0
-40
-40
-RPI
-Raspberry_Pi_3B_Socketed_THT_FaceDown_MountingHoles
-Raspberry Pi 3B+ using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_3bplus.pdf
-raspberry pi 3b+ through hole
-0
-40
-40
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -83131,125 +83166,6 @@ DEV
 0
 2
 1
-pi1541
-BARREL_JACK
-DC Barrel Jack
-Power Jack
-0
-3
-3
-pi1541
-Module_Panel
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
-0
-12
-12
-pi1541
-PWR_Specification
-Barrel connector polarity indicator
-barrel polarity
-0
-0
-0
-pi1541
-PWR_Specification_Single
-Barrel connector polarity indicator
-barrel polarity
-0
-0
-0
-pi1541
-Pi1541-Back
-
-
-0
-0
-0
-pi1541
-Pi1541-DRV
-
-
-0
-0
-0
-pi1541
-Pi1541-Decal
-
-
-0
-0
-0
-pi1541
-Pi1541-Decal2
-
-
-0
-0
-0
-pi1541
-Pi1541-III
-
-
-0
-0
-0
-pi1541
-Pi1541-Insert
-
-
-0
-0
-0
-pi1541
-Pi1541-PWR
-
-
-0
-0
-0
-pi1541
-Pi1541-Power
-
-
-0
-0
-0
-pi1541
-Pi1541-drive
-
-
-0
-0
-0
-pi1541
-Pi1541-logo3
-
-
-0
-0
-0
-resistor
-R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
-0
-2
-2
-resistor
-R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
-0
-2
-2
-small_buzzer
-Buzzer_12x9.5RM7.6
-Generic Buzzer, D12mm height 9.5mm with RM7.6mm
-buzzer
-0
-4
-2
 wire_pads
 OLED_SEL
 Through hole straight pin header, 1x03, 1.27mm pitch, single row
