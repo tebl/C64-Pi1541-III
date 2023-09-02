@@ -1,7 +1,7 @@
 # C64 Pi1541-III
 Well... if you're here, then that new and shiny SD2IEC for your Commodore 64 wasn't cycle-exact enough for you? Sure, there are great FPGA-based solutions available that can be purchased at a premium pricepoint. For the rest of us who are either on a tight budget - or - simply want something that they can build at home, then the excellent Pi1541-software written by Steve White may very well be the solution you've been looking for. With a Raspberry Pi 3 at its core, it is able to provide cycle-exact disk drive emulation with many improvements over the drive you had in your youth!
 
-![Pi1541-III](https://github.com/tebl/C64-Pi1541-III/raw/main/gallery/2023-03-23%2023.55.56.jpg)
+![Pi1541-III](https://github.com/tebl/C64-Pi1541-III/raw/main/gallery/2023-03-22%2023.50.13.jpg)
 
 A Pi1541 can be constructed in many ways, but even though you can easily build one without the help of a PCB such as the ones provided by this project - I've found it a lot easier to make them work when you have a PCB available. I've released the design files for a more traditional Raspberry Pi-hat if you would rather build one of those, these can be found in my old repository at [C64-Pi1541-Module](https://github.com/tebl/C64-Pi1541-Module). A slightly different take on the device can also be found at [C64-Pi1541-II](https://github.com/tebl/C64-Pi1541-II) as it was made to resemble a slightly smaller stack of floppy disks.
 
@@ -9,7 +9,7 @@ A Pi1541 can be constructed in many ways, but even though you can easily build o
 
 With this third version I've instead attempted to make one that's more akin to a modern device, incorporating a 1.3" OLED on the front as being controlled via the use of a rotary encoder. While the design aesthetic makes it slightly harder to build than your standard Pi1541, I believe that it more than makes up for it.
 
-![Pi1541-III in use](https://raw.githubusercontent.com/tebl/C64-Pi1541-III/main/gallery/2023-03-22%2023.50.13.jpg)
+![Pi1541-III in use](https://raw.githubusercontent.com/tebl/C64-Pi1541-III/main/gallery/2023-03-23%2023.55.56.jpg)
 ![Pi1541-III (Painted)](https://raw.githubusercontent.com/tebl/C64-Pi1541-III/main/gallery/2023-06-04%2002.00.37.jpg)
 
 - [1> Modules](#1-modules)
