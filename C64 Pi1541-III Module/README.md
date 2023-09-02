@@ -41,7 +41,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | Mounting *5           | Nylon M3 hex standoffs 12mm (M-F)                                 |    (4)|
 | Mounting *4           | Nylon M3 hex standoffs 20mm (M-F)                                 |     4 |
 | Mounting *4           | Nylon M3x6mm nylon screws                                         |     6 |
-| Mounting *4           | Nylon M3x6mm nylon nuts                                           |     10 |
+| Mounting *4           | Nylon M3x6mm nylon nuts                                           |     12 |
 
 1) There are multiple configurations of these being sold, this is usually sold with a blue PCB. When in doubt, compare the sale listing with the one shown in this [image](https://raw.githubusercontent.com/tebl/C64-Pi1541-III/main/gallery/build_006B.jpg).
 2) This is the resistor for the LEDs mounted on [Pi1541-III Module Panel](https://github.com/tebl/C64-Pi1541-III/tree/main/C64%20Pi1541-III%20Module%20Panel), the value need to be sized according to the type of LED being used. This value is a somewhat safe choice cheaper coloured LEDs, for anything blue or especially marked as being *bright* - then you need to calculate a proper value for these.

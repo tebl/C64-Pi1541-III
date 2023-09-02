@@ -9,7 +9,6 @@ A Pi1541 can be constructed in many ways, but even though you can easily build o
 
 With this third version I've instead attempted to make one that's more akin to a modern device, incorporating a 1.3" OLED on the front as being controlled via the use of a rotary encoder. While the design aesthetic makes it slightly harder to build than your standard Pi1541, I believe that it more than makes up for it.
 
-![Pi1541-III in use](https://raw.githubusercontent.com/tebl/C64-Pi1541-III/main/gallery/2023-03-23%2023.55.56.jpg)
 ![Pi1541-III (Painted)](https://raw.githubusercontent.com/tebl/C64-Pi1541-III/main/gallery/2023-06-04%2002.00.37.jpg)
 
 - [1> Modules](#1-modules)
